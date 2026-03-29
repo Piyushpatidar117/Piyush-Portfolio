@@ -209,6 +209,9 @@ span{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
    
 }
 #box-container{ 
@@ -218,6 +221,7 @@ span{
     text-align: center;
     border: 0.2rem solid #1f242d;
     transition: 0.5s ease;
+   
 }
 #services-container i{
     font-size:5rem;
@@ -442,6 +446,15 @@ html{
     #navbar.active{
         display: block;
     }
+    #services-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+   
+}
+
 }
 @media(max-width: 900px){
      html{
